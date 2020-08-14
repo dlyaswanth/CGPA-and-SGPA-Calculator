@@ -1,0 +1,57 @@
+{
+  "_from": "react-route",
+  "_id": "react-route@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-RCIKocfxelr5HxHPwlbmrU+9U10=",
+  "_location": "/react-route",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-route",
+    "name": "react-route",
+    "escapedName": "react-route",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-route/-/react-route-1.0.3.tgz",
+  "_shasum": "44220aa1c7f17a5af91f11cfc256e6ad4fbd535d",
+  "_spec": "react-route",
+  "_where": "D:\\Project\\cgpa_calculator",
+  "author": {
+    "name": "Matthew Mueller"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "component-emitter": "^1.2.0",
+    "object-assign": "^3.0.0",
+    "path-to-regexp": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "tiny react router thats less opinionated than react-router",
+  "devDependencies": {
+    "roo": "^0.4.5"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "tiny",
+    "mini",
+    "small"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-route",
+  "peerDependencies": {
+    "react": "^0.13.3 || ^0.14.0-rc1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "1.0.3"
+}
