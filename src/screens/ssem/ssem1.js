@@ -90,7 +90,7 @@ const Ssem1=()=>{
         }
         else
         M.toast({html:'Sorry , Invalid Input',classes:"#ff1744 red accent-3"})
-        setTimeout(()=>window.location.reload(),3000);
+       setTimeout(()=>window.location.replace("https://calculator-gpa.netlify.app/"),3000);
     }
     if (data=="CSE")
     {
