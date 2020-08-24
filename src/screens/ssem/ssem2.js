@@ -421,7 +421,6 @@ const Ssem2=()=>{
                     <option value="B"></option>
                     <option value="RA"></option>
                 </datalist>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
                 <h5>Basic Electronics,Electrical & Instrumentation Engineering Lab</h5>
                 <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
