@@ -94,7 +94,7 @@ const Cgpa = () => {
             <h1 className="cls1 cmd1">CGPA</h1>
             <div className="cls1 ">
                 <h5>Department</h5>
-                <input type="text" name="city" list="listcourse" value={course}  onChange={(event)=>setCourse(event.target.value)}/>
+                <input type="text" name="city" list="listcourse" value={course}  onChange={(event)=>setCourse(event.target.value)} autocomplete="off"/>
                 <datalist id="listcourse">
                     <option value="CSE"></option>
                     <option value="ECE"></option>
@@ -102,7 +102,7 @@ const Cgpa = () => {
                     <option value="MECH"></option>
                 </datalist>
                 <h5>Semester</h5>
-                <input type="number" name="city" list="name1" min='2' max='8' value={value} onChange={(event)=>setValue(event.target.value)}/>
+                <input type="number" name="city" list="name1" min='2' max='8' value={value} onChange={(event)=>setValue(event.target.value)} autocomplete="off"/>
                 <datalist id="name1">
                     <option value="2"></option>
                     <option value="3"></option>
