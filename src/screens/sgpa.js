@@ -12,6 +12,11 @@ import Ssem7 from './ssem/ssem7'
 import Ssem8 from './ssem/ssem8'
 var data=''
 const Sgpa = () => {
+     if (window.performance)
+    {
+        if (performance.navigation.type==1)
+            window.location.replace("https://calculator-gpa.netlify.app")
+    }
     var [course,setCourse]=useState('')
     const [value,setValue]=useState('')
     data=course;
