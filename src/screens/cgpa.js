@@ -11,6 +11,11 @@ import Sem7 from './sem7'
 import Sem8 from './sem8'
 var data='';
 const Cgpa = () => {
+     if (window.performance)
+    {
+        if (performance.navigation.type==1)
+            window.location.replace("https://calculator-gpa.netlify.app")
+    } 
     const [value,setValue]=useState('')
     var [course,setCourse]=useState('')
     data=course;
