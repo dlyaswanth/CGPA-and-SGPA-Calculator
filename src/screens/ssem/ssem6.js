@@ -104,7 +104,7 @@ const Ssem6=()=>{
         return(
             <div className="cls1 input-field">
                 <h5>Internet Programming</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -114,7 +114,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5> Artificial Intelligence </h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -124,7 +124,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5> Mobile Computing </h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -134,7 +134,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Compiler Design </h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -144,7 +144,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Distributed Systems</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -154,7 +154,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Elective-I</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -164,7 +164,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Internet Programming Lab </h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -174,7 +174,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Mobile Application Development Lab</h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -184,7 +184,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Mini Project</h5>
-                <input type="text" name="city" list="mark" value={value9}  onChange={(event)=>setValue9(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value9}  onChange={(event)=>setValue9(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -194,7 +194,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Communication </h5>
-                <input type="text" name="city" list="mark" value={value10}  onChange={(event)=>setValue10(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value10}  onChange={(event)=>setValue10(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -212,7 +212,7 @@ const Ssem6=()=>{
         return(
             <div className="cls1 input-field">
                  <h5>Microprocessors and Microcontrollers</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -222,7 +222,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>VLSI Design</h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -232,7 +232,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Wireless Communication</h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -242,7 +242,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Principles of Management</h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -252,7 +252,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Transmission Lines & RF Systems</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -262,7 +262,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Elective-II</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -272,7 +272,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Microprocessors & Microcontrollers Lab</h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -282,7 +282,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>VLSI Design Lab</h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -292,7 +292,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Technical Seminar </h5>
-                <input type="text" name="city" list="mark" value={value9}  onChange={(event)=>setValue9(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value9}  onChange={(event)=>setValue9(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -302,7 +302,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Communication</h5>
-                <input type="text" name="city" list="mark" value={value10}  onChange={(event)=>setValue10(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value10}  onChange={(event)=>setValue10(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -320,7 +320,7 @@ const Ssem6=()=>{
         return(
             <div className="cls1 input-field">
                 <h5>Solid State Drives</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -330,7 +330,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Protection and Switchgear</h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -340,7 +340,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Embedded Systems</h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -350,7 +350,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Elective-I</h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -360,7 +360,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Elective-II</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -370,7 +370,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Power Electronics and Drives Lab</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -380,7 +380,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Microprocessors and Microcontrollers Lab</h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -390,7 +390,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Mini Project </h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -408,7 +408,7 @@ const Ssem6=()=>{
         return(
                 <div className="cls1 input-field">
                 <h5>Design of Transmission Systems</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -418,7 +418,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Computer Aided Design & Manufacturing </h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -428,7 +428,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Heat and Mass Transfer</h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -438,7 +438,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Finite Element Analysis </h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -448,7 +448,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Hydraulics and Pneumatics</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -458,7 +458,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Elective-I</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -468,7 +468,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>CAD CAM LAb</h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -478,7 +478,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Design & Fabrication Project</h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -488,7 +488,7 @@ const Ssem6=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Professional Communication</h5>
-                <input type="text" name="city" list="mark" value={value9}  onChange={(event)=>setValue9(event.target.value)}/>
+                <input type="text" name="city" list="mark" value={value9}  onChange={(event)=>setValue9(event.target.value)} autocomplete="off"/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
