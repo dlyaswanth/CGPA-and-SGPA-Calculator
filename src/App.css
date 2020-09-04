@@ -8,6 +8,10 @@ a {
 {
   font-family: 'Roboto', cursive;
   color: black !important;
+  width: 100%; 
+  height: 100%; 
+  min-width: 1000px; 
+  min-height: 1000px;
 }
 .cls1{
   margin-top: 40px;
@@ -114,9 +118,12 @@ a {
 table {
   border-collapse: collapse; 
   color:black;
-  max-width: 768px;
   margin-left:auto; 
   margin-right:auto;
+  width: 100%; 
+  height: 100%; 
+  min-width: 1000px; 
+  min-height: 1000px;
 }
 table ,th,tr,td{
   border: 3px solid #b39ddb; 
