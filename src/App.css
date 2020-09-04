@@ -1,5 +1,7 @@
 .nav-wrapper{
    font-family: 'Roboto';
+   width:100%;
+   height:100%;
 }
 a {
     color: black !important;
@@ -8,6 +10,8 @@ a {
 {
   font-family: 'Roboto';
   color: black !important;
+  width:100%;
+  height:100%;
 }
 .cls1{
   margin-top: 40px;
@@ -117,6 +121,8 @@ table {
   max-width: 768px;
   margin-left:auto; 
   margin-right:auto;
+  width:100%;
+  height:100%;
 }
 table ,th,tr,td{
   border: 3px solid #b39ddb; 
