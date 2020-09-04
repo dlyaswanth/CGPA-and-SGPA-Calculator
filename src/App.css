@@ -1,5 +1,6 @@
 .nav-wrapper{
    font-family: 'Roboto';
+   width=100%;
 }
 a {
     color: black !important;
