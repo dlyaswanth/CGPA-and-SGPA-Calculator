@@ -22,19 +22,11 @@ a {
   border-color: #b39ddb;
   border-radius: 8px;
   background-color: #eee6fd;
-  width: 100%; 
-  height: 100%;
-  min-width: 1000px; 
-  min-height: 1000px;
 }
 .cls2{
   color: black;
   font-family: 'Roboto', cursive;
   font-size: medium !important;
-  width: 100%; 
-  height: 100%;
-  min-width: 1000px; 
-  min-height: 1000px;
 }
 .input-field input[type=number]:focus {
   border-bottom: 1px solid #b39ddb !important;
@@ -121,10 +113,6 @@ a {
   color: #b39ddb;
   background-color: #f3e5f5;
   font-family:'Roboto', cursive;
-  width: 100%; 
-  height: 100%;
-  min-width: 1000px; 
-  min-height: 1000px;
 }
 table {
   border-collapse: collapse; 
