@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .nav-wrapper{
-    font-family: 'Lobster', cursive;    
+    font-family: 'Roboto', cursive;    
 }
 a {
     color: black !important;
 }
 .brand-logo left
 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', cursive;
   color: black !important;
 }
 .cls1{
@@ -23,7 +22,7 @@ a {
 }
 .cls2{
   color: black;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', cursive;
   font-size: medium !important;
 }
 .input-field input[type=number]:focus {
@@ -110,7 +109,7 @@ a {
 .cmd1{
   color: #b39ddb;
   background-color: #f3e5f5;
-  font-family:'Lobster', cursive;
+  font-family:'Roboto', cursive;
 }
 table {
   border-collapse: collapse; 
