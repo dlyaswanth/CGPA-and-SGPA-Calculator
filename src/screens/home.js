@@ -8,9 +8,9 @@ const Home = () => {
                 <thead>
                     <tr>
                         <th>Semester</th>
-                        <th>Computer Science  And Engineering</th>
-                        <th>Electrical Electronics And Engineering</th>
-                        <th>Electrical Communication And Engineering</th>
+                        <th>Computer Science And Engineering</th>
+                        <th>Electrical And Electronics Engineering</th>
+                        <th>Electronics And Communications Engineering</th>
                         <th>Mechanical Engineering</th>
                     </tr>
                 </thead>
