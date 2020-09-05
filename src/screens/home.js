@@ -81,7 +81,7 @@ const Home = () => {
             </tfoot>
             </table>
             </div>
-            
+            <br />
         </div>
     )
 }
