@@ -3,7 +3,7 @@ const Home = () => {
     return ( 
         <div className="cls2" >
             <h3>Semester(Credit Points) for all departments</h3>
-            <div className="cls3" style="overflow-x:auto;">
+            <div className="cls3">
             <table>
                 <thead>
                     <tr>
