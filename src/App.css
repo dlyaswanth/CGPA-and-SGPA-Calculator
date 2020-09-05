@@ -130,4 +130,5 @@ th ,td{
 }
 .cls3{
   align-content:center;
+  overflow-x: auto;
 }
