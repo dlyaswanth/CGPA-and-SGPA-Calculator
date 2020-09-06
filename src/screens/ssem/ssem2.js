@@ -97,7 +97,7 @@ const Ssem2=()=>{
         return(
             <div className="cls1 input-field">
                 <h5>Technical English</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -107,7 +107,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Mathematics-II</h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -117,7 +117,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Physics for Information Science</h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -127,7 +127,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Basic Electrical & Measurement Engineering</h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -137,7 +137,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Environmental Science & Engineering</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -147,7 +147,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Programming in C</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -157,7 +157,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>C Programming Lab</h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -167,7 +167,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Practices Lab</h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -185,7 +185,7 @@ const Ssem2=()=>{
         return(
             <div className="cls1 input-field">
                  <h5>Technical English</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -195,7 +195,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Mathematics-II</h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -205,7 +205,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Physics for Electonics Engineering</h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -215,7 +215,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Basic Electrical & Instrumentation Engineering</h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -225,7 +225,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Circuit Analysis</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -235,7 +235,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Electonic Devices</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -245,7 +245,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Circuit & Devices Lab</h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -255,7 +255,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Practices Lab</h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -274,7 +274,7 @@ const Ssem2=()=>{
         return(
             <div className="cls1 input-field">
                  <h5>Technical English</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -284,7 +284,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Mathematics-II</h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -294,7 +294,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Physics for Electonics Engineering</h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -304,7 +304,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Basic Civil & Mechanical Engineering</h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -314,7 +314,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Environmental Science & Engineering</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -324,7 +324,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Circuit Theory</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -334,7 +334,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Electric Circuit Lab</h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -344,7 +344,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Practices Lab</h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -362,7 +362,7 @@ const Ssem2=()=>{
         return(
             <div className="cls1 input-field">
                 <h5>Technical English</h5>
-                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value1}  onChange={(event)=>setValue1(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -372,7 +372,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Mathematics-II</h5>
-                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value2}  onChange={(event)=>setValue2(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -382,7 +382,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Materials Science</h5>
-                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value3}  onChange={(event)=>setValue3(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -392,7 +392,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Basic Electronics,Electrical & Instrumentation Engineering</h5>
-                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value4}  onChange={(event)=>setValue4(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -402,7 +402,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Environmental Science & Engineering</h5>
-                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value5}  onChange={(event)=>setValue5(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -412,7 +412,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Mechanics</h5>
-                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value6}  onChange={(event)=>setValue6(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -422,7 +422,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Basic Electronics,Electrical & Instrumentation Engineering Lab</h5>
-                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value7}  onChange={(event)=>setValue7(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
@@ -432,7 +432,7 @@ const Ssem2=()=>{
                     <option value="RA"></option>
                 </datalist>
                 <h5>Engineering Practices Lab</h5>
-                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off"/>
+                <input type="text" name="city" list="mark" value={value8}  onChange={(event)=>setValue8(event.target.value)} autocomplete="off" onKeyDown={(e) => e.preventDefault()}/>
                 <datalist id="mark">
                     <option  value="O"></option>
                     <option value="A+"></option>
