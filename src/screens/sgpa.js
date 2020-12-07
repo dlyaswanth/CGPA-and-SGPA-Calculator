@@ -122,7 +122,7 @@ const Sgpa = () => {
                     <option value="7"></option>
                     <option value="8"></option>
                 </datalist>
-                <button className="bt1" onClick={Sumbit}>Enter</button>
+                <button className="bt1" id="btn" onClick={Sumbit}>Enter</button>
             </div>
         </div>
     )
