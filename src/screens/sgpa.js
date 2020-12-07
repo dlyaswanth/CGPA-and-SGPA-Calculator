@@ -16,6 +16,7 @@ const Sgpa = () => {
     const [value,setValue]=useState('')
     data=course;
     const Sumbit=()=>{
+         document.getElementById("btn").disabled = true
         // eslint-disable-next-line
         if (value < 9 && value >=1 && (course===("CSE") || course===("ECE") || course===("EEE") || course===("MECH")))
         {
@@ -92,8 +93,10 @@ const Sgpa = () => {
                 )
             }
         }
-        else
+        else{
+             document.getElementById("btn").disabled = false
         M.toast({html:'Sorry , Invalid Input',classes:"#ff1744 red accent-3"})
+        }
     }
     return ( 
         <div className="input-field">
