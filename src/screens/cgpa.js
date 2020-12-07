@@ -16,6 +16,7 @@ const Cgpa = () => {
     data=course;
     const Sumbit=()=>
     {
+         document.getElementById("btn").disabled = true
         //this.setSate({redirect: true});
          // eslint-disable-next-line
             if (value <=8 && value >= 2 && (course=='CSE'||course=='EEE'||course=='ECE'||course=='MECH'))
@@ -84,10 +85,14 @@ const Cgpa = () => {
                     )
                 }
             else
+            {
+                 document.getElementById("btn").disabled = false
             M.toast({html:'Sorry , Invalid Input',classes:"#ff1744 red accent-3"})
+            }
         }
-        else
-        M.toast({html:'Sorry , Invalid Input',classes:"#ff1744 red accent-3"})
+        else{
+             document.getElementById("btn").disabled = false
+        M.toast({html:'Sorry , Invalid Input',classes:"#ff1744 red accent-3"})}
     }
     return( 
         <div className="input-field">
@@ -112,7 +117,7 @@ const Cgpa = () => {
                     <option value="7"></option>
                     <option value="8"></option>
                 </datalist>
-                <button className="bt1" onClick={Sumbit}>Enter</button>
+                <button className="bt1" id="btn" onClick={Sumbit}>Enter</button>
             </div>
         </div>
     )
